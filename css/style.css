@@ -11,12 +11,14 @@
 
 
 ::-webkit-scrollbar{
-    width: 20px;
+    width: 12px;
     background-color: transparent;
 }
 ::-webkit-scrollbar-thumb{
-    background-color: transparent;
-    background: red;
+    border-radius: 10px;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+    background: rgba(0,0,0,0.2);
 }
 
 
