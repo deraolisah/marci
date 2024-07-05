@@ -12,7 +12,9 @@
 *::--webit-scrollbar-thumb{
   background: red;
 }
-
+*::-webkit-scollbar{
+  background-color: transparent;
+}
 
 nav{
   width: 100%;
