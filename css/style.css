@@ -9,11 +9,21 @@
   box-sizing: border-box;
 }
 
-*::--webit-scrollbar-thumb{
+*::-webit-scrollbar-thumb{
   background: red;
 }
 *::-webkit-scollbar{
   background-color: transparent;
+}
+
+
+body{
+  width: 100%;
+  overflow-x: hidden;
+  background-color: #f6f6f7;
+}
+.wrapper{
+  
 }
 
 nav{
