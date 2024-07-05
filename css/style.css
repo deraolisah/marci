@@ -24,6 +24,10 @@ nav{
   justify-content: space-between;
   background: transparent;
 }
+nav ul{
+  display: flex;
+  align-items: center;
+}
 
 .hero{
   width: 100%;
