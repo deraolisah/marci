@@ -9,7 +9,7 @@
   box-sizing: border-box;
 }
 
-::-webit-scrollbar-thumb{
+::-webkit-scrollbar-thumb{
   background: red;
   width: 12px;
   border-radius: 10px;
