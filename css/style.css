@@ -9,14 +9,16 @@
   box-sizing: border-box;
 }
 
-::-webkit-scrollbar-thumb{
-  background: red;
-  width: 12px;
-  border-radius: 10px;
-}
+
 ::-webkit-scrollbar{
+  width: 12px;
   background-color: transparent;
 }
+::-webkit-scrollbar-thumb{
+  background: red;
+  border-radius: 10px;
+}
+
 
 
 body{
